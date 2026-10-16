@@ -1,0 +1,14 @@
+{
+  "name": "railsync-ai",
+  "version": "1.0.0",
+  "description": "RailSync AI - Intelligent Railway Operations Suite",
+  "scripts": {
+    "install:all": "npm install && npm install --prefix server && npm install --prefix frontend",
+    "start": "concurrently \"npm start --prefix server\" \"npm run dev --prefix frontend\"",
+    "server": "npm start --prefix server",
+    "client": "npm run dev --prefix frontend"
+  },
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
