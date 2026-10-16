@@ -4,7 +4,7 @@ import { Train, ShieldCheck, Activity, Users, Lock, LogIn, Eye, EyeOff, CheckCir
 const credentials = [
   {
     role: 'Admin',
-    name: 'Aravind Swamy',
+    name: 'Riya',
     roleTitle: 'System Administrator',
     username: 'admin',
     password: 'admin',
@@ -16,7 +16,7 @@ const credentials = [
   },
   {
     role: 'Traffic Controller',
-    name: 'Rajesh Kumar',
+    name: 'Vaishnavi',
     roleTitle: 'Chief Traffic Controller',
     username: 'controller',
     password: 'controller',
@@ -28,7 +28,7 @@ const credentials = [
   },
   {
     role: 'Station Master',
-    name: 'Sunita Deshmukh',
+    name: 'Tejal',
     roleTitle: 'Station Master · NDLS',
     username: 'master',
     password: 'master',
